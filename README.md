@@ -207,3 +207,34 @@ Markdown的使用者：
 
 
 关于其它扩展语法可参见具体工具的使用说明。
+
+
+~~删除线~~  
+
+```Scala
+    object Test {
+      def main(args: Array[String]): Unit = {
+        println("hello world")
+      }
+    }
+```
+
+项目３
+:   这个定义有一个代码块
+
+        代码块
+
+:   这个定义有一个引用块
+
+    > 定义D内容
+    
+脚注[ ^1]
+有一个标签[^label]和该标签的定义[^!DEF].
+
+[ ^1]: 这里是1  
+
+这是一个脚注[ ^footnote].
+
+[ ^footnote]: 脚注定义内容的第一行内容.
+
+
