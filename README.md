@@ -205,12 +205,18 @@ Markdown的使用者：
 |MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 |MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 
+|name       |age       |sex        |value      |gender    |
+|-----------|:---------|:---------:|:---------:|---------:|    
+|zhangsan   |23        |男         |88         |1        |
+|lisi       |24        |女         |99         |2        |
+
 
 关于其它扩展语法可参见具体工具的使用说明。
 
 
 ~~删除线~~  
 
+### 语言代码块:
 ```Scala
     object Test {
       def main(args: Array[String]): Unit = {
