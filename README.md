@@ -133,7 +133,9 @@ void main()
 > 3. 第三项
 
 #### 4.7 分割线
-分割线最常使用就是三个或以上`*`，还可以使用`-`和`_`。
+分割线最常使用就是三个或以上`*`，还可以使用`-`和`_`, 注意要和字符空一行。
+
+***
 
 #### 4.8 链接
 链接可以由两种形式生成：**行内式**和**参考式**。    
@@ -239,8 +241,16 @@ Markdown的使用者：
 
 [ ^1]: 这里是1  
 
+
 这是一个脚注[ ^footnote].
 
 [ ^footnote]: 脚注定义内容的第一行内容.
 
 
+* * * 
+
+Sublime Text   Markdown Editing 插件   commond+option+o    将当前markdown展示在网页上
+
+Command +Option +O: 在浏览器中预览
+Command+Option+X: 导出HTML
+Ctrl+Alt+C: HTML标记拷贝至剪贴板
